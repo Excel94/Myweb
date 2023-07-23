@@ -1,0 +1,62 @@
+body{
+    background-image: url('../images/design.jpg.jpeg');
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.6em;
+    background-size: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat ;
+}
+
+.container{
+    width: 25%;
+    margin: auto;
+    border-radius: 12px;
+    padding-top: 80px;
+    padding-bottom: 18%;
+    background-size: auto;
+}
+
+.container h1{
+    text-align: center;
+    text-decoration-color: red;
+    color: red;
+    font-style: italic;
+}
+
+.my-form{
+    padding: 20px;
+
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: inline-block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 60%;
+}
+
+.button{
+    color: black;
+    background-color: red;
+    text-decoration-color: black;
+    text-align: center;
+    padding: 10px 15px;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover{
+    color: black;
+    background-color: white;
+}
